@@ -1,0 +1,18 @@
+.MediaCardContainer{
+    width: 210px;
+    height: 550px;
+    margin: auto;
+    
+}
+.MediaCardImage{
+    height: 200px;
+    max-width: 230px;
+    
+}
+.MediaCardDescription{
+    height: 200px;
+    text-align: left;
+    overflow-y: auto;
+    overflow-wrap: break-word;
+    
+}
