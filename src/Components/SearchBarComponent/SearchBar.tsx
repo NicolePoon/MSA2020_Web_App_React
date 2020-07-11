@@ -30,8 +30,8 @@ function SearchBar(props: ISearchBarProps) {
     }
 
     return <div className="SearchBarContainer">
-        <Grid container spacing={0} justify="flex-start"  alignItems="flex-end">
-            <Grid item xs={3} >
+        <Grid container spacing={3} justify="flex-start"  alignItems="flex-end">
+            <Grid item>
                 <TextField
                     required
                     id="outlined-required"
@@ -44,9 +44,9 @@ function SearchBar(props: ISearchBarProps) {
                 />
             </Grid>
 
-            <Grid item xs={3}>
+            <Grid item >
                 <Button variant="outlined" size="large" color="secondary" onClick={handleSubmit}>
-                    submit
+                    SUBMIT
                 </Button>
             </Grid>
 
