@@ -6,8 +6,6 @@ import './MediaGrid.css';
 interface IState {
     selfLink: string;
     volumeInfo: any;
-    
-
 }
 
 

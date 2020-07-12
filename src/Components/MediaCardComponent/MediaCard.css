@@ -14,5 +14,7 @@
     text-align: left;
     overflow-y: auto;
     overflow-wrap: break-word;
-    
+    font-family: "Courier New" !important;
+    color: #3F3737 !important;
+    font-size: medium !important;
 }

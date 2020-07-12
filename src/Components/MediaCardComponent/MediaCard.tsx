@@ -24,10 +24,10 @@ function MediaCard(props: IMediaCardProps) {
                         image={props.ImageUrl}
                     />
                     <CardContent>
-                        <Typography gutterBottom variant="h5" component="h2" >
+                        <Typography gutterBottom variant="h5" component="h2" style={{fontFamily:"Courier New", fontWeight:"bold"}}>
                             {props.title}
                         </Typography>
-                        <Typography gutterBottom variant="subtitle1" component="h2" align="left">
+                        <Typography gutterBottom variant="subtitle1" component="h2" align="left" style={{fontFamily:"Chaucer", fontStyle:"italic"}}>
                             {props.authors}
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="p" className="MediaCardDescription">
