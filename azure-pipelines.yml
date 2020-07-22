@@ -2,7 +2,7 @@ trigger:
 - master
 
 variables:
-  rootDir: 'web-app-msa'
+  rootDir: 'src'
   buildDir: '$(rootDir)/build'
 
 pool:
