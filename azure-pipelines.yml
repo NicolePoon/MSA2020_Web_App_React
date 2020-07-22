@@ -2,7 +2,7 @@ trigger:
 - master
 
 variables:
-  rootDir: 'src'
+  rootDir: 'MSA2020_Web_App_React'
   buildDir: '$(rootDir)/build'
 
 pool:
